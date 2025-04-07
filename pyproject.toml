@@ -11,7 +11,7 @@ requires-python = ">=3.12"
 dependencies = [
     "bs4",
     "dash",
-    "dash_bootstrap_components"
+    "dash_bootstrap_components",
     "numpy",
     "pandas",
     "requests"
