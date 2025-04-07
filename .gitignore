@@ -1,10 +1,9 @@
 *.egg-info/
-
 __pycache__/
 *.pyc
-
 matches_json/
 *.json
-
 *.txt
 *.csv
+.pylintrc
+spyder.py
