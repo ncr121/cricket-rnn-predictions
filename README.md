@@ -57,12 +57,12 @@ development to optimise the weights.
 ## Data
 Disclaimer: This library is not intended for commercial use.
 
-# Cricsheet
+### Cricsheet
 This project is only possible because of [Cricsheet](https://cricsheet.org),
 which is an amazing website that provides accurate ball-by-ball data for
 international and club matches since 2003.
 
-# Cricinfo
+### Cricinfo
 Additionally, some further information is obtained from
 [Cricinfo](https://www.espncricinfo.com) by web scraping. This is mostly
 player data, e.g. batting style, bowling style, if the player is a keeper.
