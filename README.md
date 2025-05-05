@@ -78,7 +78,7 @@ git clone https://github.com/ncr121/cricket-rnn-predictions.git
 Download JSON data from Cricsheet:
 
 ```python
->>> from cricket_rnn.loaders import download_json_data
+>>> from cricket_rnn.loaders,cricsheet import download_json_data
 >>> download_json_data()
 Downloading Test matches
 Downloading ODI matches
@@ -87,7 +87,7 @@ Downloading T20 matches
 
 View a master list of all downloaded matches:
 ```python
->>> from cricket_rnn.loaders import read_master_list
+>>> from cricket_rnn.loaders.cricsheet import read_master_list
 >>> master_list = read_master_list()
 ```
 
