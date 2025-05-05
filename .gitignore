@@ -3,7 +3,8 @@ __pycache__/
 *.pyc
 matches_json/
 *.json
-*.txt
+!headers.json
 *.csv
 .pylintrc
 spyder.py
+legacy_code.py
