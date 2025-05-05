@@ -15,7 +15,7 @@ import pandas as pd
 
 from cricket_rnn import MATCH_FORMATS, MATCH_TYPES, TEAM_TYPES, TEST_NATIONS
 from cricket_rnn.loaders import load_json_match_data
-from cricket_rnn.loaders.cricsheet._aliases_and_constants import JSONDict
+from cricket_rnn.loaders.cricsheet import JSONDict
 
 T = TypeVar('T')
 

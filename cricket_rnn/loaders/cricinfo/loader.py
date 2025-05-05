@@ -15,7 +15,7 @@ import zlib
 from bs4 import BeautifulSoup, Tag
 
 from cricket_rnn.loaders import load_json_match_data, json_data_path
-from cricket_rnn.loaders.cricinfo._aliases_and_constants import JSONDict, JSONKeys, PlayerDict, PlayerKeys, TeamKeys
+from cricket_rnn.loaders.cricinfo import JSONDict, JSONKeys, PlayerDict, PlayerKeys, TeamKeys
 
 BASE_URL = 'https://www.espncricinfo.com/'
 MATCHES_PATH = 'matches/engine/match/{}'
